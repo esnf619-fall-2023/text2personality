@@ -56,7 +56,15 @@ Our project will involve:
 - Integration of the machine learning models into a user interface for interaction.
 
 ## User Interface (UI)
-We will develop a user-friendly web-based interface that allows users to input text, and the model will predict their MBTI type based on their writing style. Users will also be able to explore the project's findings and visualizations.
+We will design and develop a comprehensive user interface to provide an engaging and informative user experience. Users will have the ability to:
+- Input a paragraph of text for personality analysis.
+- Choose one or multiple predictive models to run on their input.
+- Receive a detailed report based on the selected models, allowing for result comparison.
+
+In addition, we will implement an admin portal that offers the following features:
+
+- Access to user-submitted records and their corresponding analysis results.
+- User management capabilities for efficient administration and oversight of the platform.
 
 ## Project Timeline
 - Data collection and preprocessing: Weeks 1-2
