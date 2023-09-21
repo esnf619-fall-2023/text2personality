@@ -24,8 +24,6 @@ Implement a web-based interface for users to interact with these models and inpu
 ### API Development
 
 Build an API that exposes the MBTI personality prediction functionality to B2B companies.
-Ensure secure and efficient data transmission and processing for the API.
-Provide documentation and guidelines for B2B companies on how to integrate the API into their assessment and hiring processes.
 ### Data Analysis
 
 Analyze the provided dataset containing over 8,600 individuals' MBTI types and their last 50 forum posts.
@@ -34,16 +32,14 @@ Visualize and present the findings in a clear and informative manner.
 ### User Interface (UI)
 
 Design a user-friendly web-based interface for individuals to input text and receive MBTI personality predictions.
-Implement an appealing and intuitive UI that accommodates both single-text input and batch processing.
 ### Limitations
 
 The accuracy of MBTI personality prediction models may be affected by the quality and quantity of training data and the inherent limitations of the MBTI framework.
-The API's performance may be influenced by factors such as server load, response time, and potential privacy concerns related to text input.
 The analysis of language style and personality may not capture the full complexity of individual personality traits.
 The project's scope may be constrained by available resources, including computational power and access to data.
 
 ## Data
-We will use the PersonalityCafe forum dataset, which contains MBTI types and corresponding text posts. The dataset includes information about the personality type and the last 50 posts of each individual, with posts separated by "|||".
+We will use the PersonalityCafe forum dataset, which contains MBTI types and corresponding text posts. The dataset includes information about the personality type and the last 50 posts of each individual, with posts.
 
 ## Machine Learning Models
 We plan to use natural language processing (NLP) techniques and machine learning algorithms such as:
