@@ -67,10 +67,10 @@ We will develop a user-friendly web-based interface that allows users to input t
 
 ## Resources
 - Python for data analysis and machine learning.
-- NLP libraries such as NLTK and spaCy.
-- Machine learning frameworks like scikit-learn and TensorFlow.
-- Web development tools for creating the user interface.
-- Access to computing resources for model training (e.g., GPU servers).
+- Machine learning frameworks (e.g., scikit-learn and TensorFlow).
+- ReactJS for the user interface development.
+- Node.js for API development, catering to B2B customers, and integration with the UI.
+- AWS EC2 Linux Server for deploying APIs and processing.
 
 ## Ethical Considerations
 We will ensure ethical data handling, respecting user privacy, and maintaining transparency in our approach. The data used will be anonymized and stripped of any personally identifiable information.
