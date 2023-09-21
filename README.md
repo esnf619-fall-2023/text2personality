@@ -50,10 +50,13 @@ We plan to use natural language processing (NLP) techniques and machine learning
 The choice of models will depend on the performance and suitability for the specific problem.
 
 ## Software/hardware Architecture
-Our project will involve:
-- Data preprocessing and feature engineering.
-- Model training and evaluation.
-- Integration of the machine learning models into a user interface for interaction.
+Our project architecture comprises two microservices:
+
+- ** Machine Learning Microservice:** This microservice handles the machine learning processes, including the prediction of MBTI personality types based on user-provided text.
+
+- ** API Gateway Microservice:** This microservice serves as the entry point for external interactions. It facilitates seamless communication with our prediction models and user interface.
+
+To ensure efficient communication between these microservices, we will implement AWS Simple Notification Service (SNS) topics and Simple Queue Service (SQS) queues within the AWS ecosystem. These components will enable streamlined data exchange and enhance the overall system's performance and reliability.
 
 ## User Interface (UI)
 We will design and develop a comprehensive user interface to provide an engaging and informative user experience. Users will have the ability to:
