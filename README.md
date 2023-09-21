@@ -8,21 +8,39 @@
 ## Problem Statement
 The Myers Briggs Type Indicator (MBTI) is a widely used personality test that categorizes individuals into 16 distinct personality types based on four axes: Introversion/Extroversion, Intuition/Sensing, Thinking/Feeling, and Judging/Perceiving. Despite its popularity, the validity of MBTI has been questioned due to issues with its reliability in experiments. This project aims to investigate whether specific personality types exhibit distinct language styles and behaviors in online written content, ultimately addressing the question of the test's ability to predict and categorize behavior.
 
-## Objectives
-1. Analyze language patterns in online text data to identify potential correlations with MBTI personality types.
-2. Build machine learning models to predict an individual's MBTI type based on their writing style.
-3. Assess the predictive accuracy of these models and evaluate the overall validity of the MBTI test.
-4. Develop a user-friendly Software as a Service (SaaS) platform for end users to analyze their own personality and that of others based on their writing style. They can use this service to identify their weaknesses and strengths and improve their skill set.
-5. Provide a public API for companies in the HR industry with their own assessment products, allowing seamless integration of personality analysis capabilities into their services.
-6. Generate actionable insights from personality analysis to help individuals and organizations make informed decisions related to personal development, team dynamics, and talent acquisition.
-7. Conduct thorough documentation and dissemination of research findings to contribute to the understanding of the relationship between language and personality in academic and professional communities.
-7. Ensure compliance with ethical standards for data privacy, fairness, and transparency throughout the project's lifecycle.
+## Objectives:
+The primary objectives of this project are as follows:
+
+1. Develop and compare multiple machine learning models for predicting MBTI personality types based on text data.
+2. Create a user-friendly application for predicting MBTI personality types from input text and evaluate its performance against the developed models.
+3. Provide an API service that allows B2B companies to access the MBTI personality prediction functionality for employee assessments and hiring processes.
 
 ## Scope
-The project will involve:
-- Preprocessing and analyzing a dataset of over 8,600 individuals, each characterized by their MBTI type and the last 50 posts they have made on the PersonalityCafe forum.
-- Developing and training machine learning models to classify personality types based on text data.
-- Evaluating the performance of the models and providing insights into the extent to which language style correlates with MBTI personality types.
+### Model Development and Comparison:
+
+Develop multiple machine learning models for predicting MBTI personality types from text data. These models may include natural language processing (NLP) techniques such as text preprocessing, feature extraction, and classification algorithms.
+Compare the performance of these models using relevant evaluation metrics, such as accuracy, precision, recall, and F1-score.
+Implement a web-based interface for users to interact with these models and input text for MBTI personality prediction.
+### API Development
+
+Build an API that exposes the MBTI personality prediction functionality to B2B companies.
+Ensure secure and efficient data transmission and processing for the API.
+Provide documentation and guidelines for B2B companies on how to integrate the API into their assessment and hiring processes.
+### Data Analysis
+
+Analyze the provided dataset containing over 8,600 individuals' MBTI types and their last 50 forum posts.
+Extract meaningful insights regarding the relationship between language style, content, and MBTI personality types.
+Visualize and present the findings in a clear and informative manner.
+### User Interface (UI)
+
+Design a user-friendly web-based interface for individuals to input text and receive MBTI personality predictions.
+Implement an appealing and intuitive UI that accommodates both single-text input and batch processing.
+### Limitations
+
+The accuracy of MBTI personality prediction models may be affected by the quality and quantity of training data and the inherent limitations of the MBTI framework.
+The API's performance may be influenced by factors such as server load, response time, and potential privacy concerns related to text input.
+The analysis of language style and personality may not capture the full complexity of individual personality traits.
+The project's scope may be constrained by available resources, including computational power and access to data.
 
 ## Data
 We will use the PersonalityCafe forum dataset, which contains MBTI types and corresponding text posts. The dataset includes information about the personality type and the last 50 posts of each individual, with posts separated by "|||".
